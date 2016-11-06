@@ -28,8 +28,8 @@ void dump_set(struct set dumped)
 	printf("{");
 	for(i=0;i<dumped.cardinality;i++){
 		dump_set(dumped.member[i]);
-		if(((i+1) < dumped.cardinality) )
-			printf(",");
+	//	if(((i+1) < dumped.cardinality) )
+//			printf(",");
 	}
 	printf("}");
 }

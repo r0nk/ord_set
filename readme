@@ -1,0 +1,8 @@
+ord_set prints out the ordinal set representation of a number,
+so for example, 
+$ ./ord_set 0 
+{}
+$ ./ord_set 1
+{{}}
+$ ./ord_set 2
+{{{}}{{{}}}}
